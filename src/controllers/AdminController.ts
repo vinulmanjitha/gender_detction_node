@@ -1,7 +1,6 @@
 import { plainToClass } from "class-transformer";
 import { validate } from "class-validator";
 import { Request, Response, NextFunction } from "express";
-import { UserLoginInput } from "../dto";
 import { User } from "../models";
 import { Role } from "../utility/constants";
 
